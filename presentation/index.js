@@ -14,6 +14,11 @@ import {
   Text
 } from "spectacle";
 
+import Title from "./slides/title.slide";
+import Intro from "./slides/intro.slide";
+import Company from "./slides/company-intro.slide";
+import Summary from "./slides/summary.slide";
+
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
@@ -21,10 +26,10 @@ import createTheme from "spectacle/lib/themes/default";
 require("normalize.css");
 
 const theme = createTheme({
-  primary: "white",
-  secondary: "#1F2022",
-  tertiary: "#03A9FC",
-  quaternary: "#CECECE"
+  primary: "#FF8C00",
+  secondary: "#183842",
+  tertiary: "#7c7c7c",
+  quaternary: "white"
 }, {
   primary: "Montserrat",
   secondary: "Helvetica"
@@ -34,6 +39,10 @@ export default class Presentation extends React.Component {
   render() {
     return (
       <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
+        <Title />
+        <Intro />
+        <Company />
+        <Summary />
         <Slide transition={["zoom"]} bgColor="primary">
           <Heading size={1} fit caps lineHeight={1} textColor="secondary">
             Spectacle Boilerplate
