@@ -1,0 +1,34 @@
+.picture-wrapper {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1rem;
+  width: 80%;
+  height: 70vh;
+  margin: auto;
+  color: white;
+
+
+  .chapter {
+    display: flex;
+    text-align: center;
+    align-self: center !important;
+
+    &--testing {
+      background-color: red;
+    }
+
+    &--development {
+      background-color: blue;
+    }
+
+    &--style {
+      background-color: green;
+    }
+
+    &--deliverable {
+      background-color: yellow;
+      color: black;
+    }
+  }
+}
