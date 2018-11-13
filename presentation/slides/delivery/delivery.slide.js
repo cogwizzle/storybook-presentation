@@ -1,5 +1,5 @@
 import React from "react";
-//import Delivery from "../../../assets/delivery.jpg";
+import Delivery from "../../../assets/delivery.jpg";
 
 // Import Spectacle Core tags
 import {
@@ -14,7 +14,7 @@ const styles = {
 };
 
 export default () => (
-  <Slide transition={["zoom"]} bgColor="primary">
-    <Image src="{Delivery}" style={styles.image} />
+  <Slide transition={["zoom"]} bgColor="black">
+    <Image src={Delivery} style={styles.image} />
   </Slide>
 );

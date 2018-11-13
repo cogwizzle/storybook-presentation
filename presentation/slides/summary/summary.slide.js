@@ -46,7 +46,7 @@ const styles = {
 };
 
 export default () => (
-  <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
+  <Slide transition={["fade"]} bgColor="quaternary" textColor="tertiary">
     <Heading size={6} textColor="secondary" caps>What is Storybook?</Heading>
     <div className="picture-wrapper">
       <div style={styles.test}>

@@ -14,7 +14,7 @@ const styles = {
 };
 
 export default () => (
-  <Slide transition={["zoom"]} bgColor="primary">
+  <Slide transition={["zoom"]} bgColor="black">
     <Image src={Test} style={styles.image} />
   </Slide>
 );

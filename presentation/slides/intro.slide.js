@@ -10,7 +10,7 @@ import {
 } from "spectacle";
 
 export default () => (
-  <Slide transition={["fade"]} bgColor="primary">
+  <Slide transition={["fade"]} bgColor="quaternary">
     <Heading size={5} caps lineHeight={1} textColor="secondary">
       Hi I'm Joe!
     </Heading>
