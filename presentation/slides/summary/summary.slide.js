@@ -1,6 +1,5 @@
 // Import React
 import React from "react";
-import "./summary.style.scss";
 
 // Import Spectacle Core tags
 import {
@@ -10,6 +9,16 @@ import {
 } from "spectacle";
 
 const styles = {
+  pictureWrapper: {
+    marginTop: "2rem",
+    display: "grid",
+    gridTemplateColumns: "50% 50%",
+    gridGap: "1rem",
+    width: "80%",
+    height: "70vh",
+    margin: "auto",
+    color: "white"
+  },
   test: {
     display: "flex",
     textAlign: "center",
